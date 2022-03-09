@@ -76,9 +76,21 @@ print(torch.cuda.is_available())
 
 
 
+在笔记本上重新导入工程时，出现以下错误
 
+dis...... 没有version 属性 ，将matplotlib和numpy降至旧版本即可解决
 
+更新torch匹配cuda版本
 
+运行train.py
 
+![image-20220309213929318](img/image-20220309213929318.png)
 
+![image-20220309213942288](img/image-20220309213942288.png)
+
+以上两个问题可以不用管
+
+![image-20220309211234987](img/image-20220309211234987.png)
+
+修改batch-size的default值为4 即可
 
